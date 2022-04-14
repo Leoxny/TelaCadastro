@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>Redefinir senha</title>
+</head>
+<body>
+
+    <div class="box">
+
+        <h2>Alteração de senha</h2>
+
+        <form action="">
+            <label for="pass">Digite a senha atual</label>
+            <input type="password" class="inputuser" id="pass" placeholder="Digite a senha atual">
+            <br>
+            <label for="">Nova senha</label>
+            <input type="password" class="inputuser" id="pass" placeholder="Digite a nova senha">
+            <br>
+            <label for="pass">Confirme a sennha</label>
+            <input type="password" class="inputuser" id="pass" placeholder="Repita a senha">
+            <br>
+            <input type="submit" value="Confirmar" onclick="Confirmar()">  
+        </form>
+
+    </div>
+
+    <script type="text/javascript" >
+        function Confirmar(){
+            window.location.href = "teladelogin.html";
+        }
+    </script>   
+
+    
+</body>
+</html>

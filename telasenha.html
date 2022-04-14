@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Redefinir senha</title>
+</head>
+<body>
+
+    <div class="box">
+
+        <h2>Esqueci minha senha</h2>
+
+        <form action="">
+            <p>Para redefinir sua senha, informe o usuário ou e-mail cadastrado na sua conta
+                e lhe enviaremos um link com as instruções.
+            </p>
+            <label for="email">Email ou usuário</label>
+            <input type="text" class="inputuser" id="email" placeholder="Digite seu e-mail ou usuário" required>
+            <br>
+            <input type="submit" value="Proximo" onclick="Proximo()">  
+            <br>
+            <a href="teladelogin.html">Cancelar</a>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        function Proximo(){
+            window.location.href = "redefinirsenha.html";
+        }
+    </script>   
+
+</body>
+</html>
